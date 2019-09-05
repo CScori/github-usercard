@@ -41,7 +41,7 @@ function newCard (data) {
   const cardName = document.createElement('h3');
   const cardUser = document.createElement('p');
   const cardLocation = document.createElement('p');
-  cosnt cardAdd = document.createElement('p');
+  const cardAdd = document.createElement('p');
   const follow = document.createElement('p');
   const fling = document.createElement('p');
   const bio = document.createElement('p');
@@ -53,7 +53,16 @@ function newCard (data) {
   cardUser.classList.add('username');
   
   // adding in chain order
-  
+  cardContainer.appendChild('to html')
+  cardClass.appendChild(cardContainer);
+  cardImg.appendChild(cardContainer);
+  cardName.appendChild(cardClass);
+  cardUser.appendChild(cardClass);
+  cardLocation.appendChild(cardClass);
+  cardAdd.appendChild(cardClass);
+  follow.appendChild(cardClass);
+  fling.appendChild(cardClass);
+  bio.appendChild(cardClass);
 
 }
 /* Step 3: Create a function that accepts a single object as its only argument,
