@@ -46,6 +46,15 @@ function newCard (data) {
   const fling = document.createElement('p');
   const bio = document.createElement('p');
 
+  //adds class names
+  cardContainer.classList.add('card');
+  cardClass.classList.add('card-info');
+  cardName.classList.add('name');
+  cardUser.classList.add('username');
+  
+  // adding in chain order
+  
+
 }
 /* Step 3: Create a function that accepts a single object as its only argument,
           Using DOM methods and properties, create a component that will return the following DOM element:
